@@ -45,11 +45,7 @@ class Form extends React.Component{
         )
     }
 
-    onFieldChange = (event) => {
-        this.setState({
-            [event.target.name] : event.target.value
-    })
-
+    
     onSubmit = () =>{ 
         
         if(this.state.phone === '' || 
