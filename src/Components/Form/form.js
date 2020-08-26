@@ -50,7 +50,7 @@ class Form extends React.Component{
         
         if(this.state.phone === '' || 
         this.state.phone.length !==10){
-            window.alert("Invalid Phone Bumber!")
+            window.alert("Invalid Phone Number!")
             return;
 
         }
